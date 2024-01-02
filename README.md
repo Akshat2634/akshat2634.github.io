@@ -30,9 +30,6 @@ Visit my portfolio website: [Akshat Sahu's Portfolio](https://akshat2634.github.
 ## Usage
 Feel free to use this template as a starting point for your own portfolio website. Make sure to replace the placeholder content with your personal information, projects, and experiences.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-
 ## Connect with Me
 - [LinkedIn](https://www.linkedin.com/in/akshat2634/)
 - [Email](mailto:akshatsahu1@gmail.com)
