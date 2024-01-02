@@ -27,9 +27,6 @@ Get in touch with me! Find my contact information, including email and LinkedIn 
 ## Website
 Visit my portfolio website: [Akshat Sahu's Portfolio](https://akshat2634.github.io/)
 
-## Usage
-Feel free to use this template as a starting point for your own portfolio website. Make sure to replace the placeholder content with your personal information, projects, and experiences.
-
 ## Connect with Me
 - [LinkedIn](https://www.linkedin.com/in/akshat2634/)
 - [Email](mailto:akshatsahu1@gmail.com)
