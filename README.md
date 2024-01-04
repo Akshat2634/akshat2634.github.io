@@ -22,7 +22,14 @@ Learn about my work experience, including details about my internships, roles, a
 Browse through some of my recent projects, each with a brief description and links to their GitHub repositories.
 
 ## Contact
-Get in touch with me! Find my contact information, including email and LinkedIn profile.
+Get in touch with me! Find my contact information, including email and LinkedIn profile.You can also use the provided contact form to send me a message.
+
+## Technologies Used
+This portfolio website was built using the following technologies:
+- HTML5
+- CSS3
+- JavaScript
+- Firebase (for message handling in the contact form)
 
 ## Website
 Visit my portfolio website: [Akshat Sahu's Portfolio](https://akshat2634.github.io/)
