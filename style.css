@@ -72,7 +72,7 @@ a:hover {
 
 #desktop-nav.hidden {
   opacity: 0;
-  pointer-events: none; 
+  pointer-events: none;
 }
 
 #desktop-nav.visible {
@@ -163,7 +163,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  height: 98vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -274,7 +274,6 @@ section {
   gap: 1rem;
 }
 
-
 /* ABOUT SECTION */
 
 #about {
@@ -305,7 +304,6 @@ section {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
-  
 }
 
 .details-container {
@@ -328,13 +326,14 @@ section {
   width: 400px;
   margin: auto 0;
 }
-.description{
-    text-align: justify;
+.description {
+  text-align: justify;
 }
 
 /* SKILLS SECTION */
 
-#skills, #experience {
+#skills,
+#experience {
   position: relative;
 }
 
@@ -371,113 +370,112 @@ article .icon {
   cursor: default;
 }
 
-
 .skills-container {
-    display: flex;
-    justify-content: center;
-    gap: 4rem;
-    margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 4rem;
 }
 
 .details-container {
-    padding: 1.5rem;
-    flex: 1;
-    background: white;
-    border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
-    text-align: center;
-    transition: background-color 0.3s;
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  transition: background-color 0.3s;
 }
 
 .details-container:hover {
-    background-color: #f8f8f8; 
+  background-color: #f8f8f8;
 }
 
 .skills-list {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    color: rgb(85, 85, 85);
-    text-align: center;
-    transition: color 0.3s;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: rgb(85, 85, 85);
+  text-align: center;
+  transition: color 0.3s;
 }
 
 .skills-list:hover {
-    color: #333; 
+  color: #333;
 }
 
 /* Work Experience  */
 
 ul.workex {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 ul.workex li {
-    background-color: #f8f8f8;
-    margin: 10px 0;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 ul.workex li {
-    line-height: 1.5;
-    font-size: 16px;
+  line-height: 1.5;
+  font-size: 16px;
 }
 
 ul.workex li:hover {
-    background-color: #e0e0e0;
+  background-color: #e0e0e0;
 }
 
 /* Projects Section  */
 
-#projects{
+#projects {
   position: relative;
 }
 
-.color-container{
+.color-container {
   border-color: rgb(163, 163, 163);
   background-color: rgb(250, 250, 250);
 }
 
-.project-img{
+.project-img {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
 }
 
-.project-title{
+.project-title {
   margin: 1rem;
   color: black;
 }
 
-.project-btn{
+.project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
 }
 
 /* Contact  */
-
-#contact{
+#contact {
   display: flex;
   justify-content: center;
+  align-items: center; /* Add this line to vertically align the content */
   flex-direction: column;
-  height: 70vh;
+  height: auto; /* Change the height to auto */
+  padding: 2rem 0; /* Add padding for better spacing */
 }
 
-.contact-info-upper-container{
+.contact-info-upper-container {
   display: flex;
   justify-content: center;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163,163,163) ;
+  border: 1px solid rgb(163, 163, 163); /* Simplify border styling */
   background: rgb(250, 250, 250);
-  margin: 2rem auto;
-  padding: 0.5rem;
+  margin: 2rem 0; /* Add margin for better spacing */
+  padding: 1rem; /* Adjust padding for better spacing */
 }
 
-.contact-info-container{
+.contact-info-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -485,26 +483,92 @@ ul.workex li:hover {
   margin: 1rem;
 }
 
-.contact-info-container p{
+.contact-info-container p {
   font-size: larger;
 }
 
-.contact-icon{
+.contact-icon {
   cursor: default;
 }
 
-.email-icon{
+.email-icon {
   height: 2.5rem;
+}
+
+/* Contact Form Styles */
+.contact-form-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(163, 163, 163);
+}
+
+.contact-form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.contact-form-container .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form-container label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.contact-form-container textarea {
+  resize: vertical;
+}
+
+.contact-form-container button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.contact-form-container button:hover {
+  background-color: #217dbb;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 600px) {
+  .contact-form-container {
+    max-width: 90%;
+  }
 }
 
 /* Footer */
 
-footer{
+footer {
   height: 26vh;
   margin: 0 1rem;
 }
 
-footer p{
+footer p {
   text-align: center;
 }
 
@@ -514,9 +578,52 @@ footer {
 
 footer.hidden {
   opacity: 0;
-  pointer-events: none; 
+  pointer-events: none;
 }
 
 footer.visible {
   opacity: 1;
+}
+
+/* Snack Bar  */
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  transform: translateX(-50%);
+}
+
+#snackbar.show {
+  visibility: visible;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s; /* Show for 3 seconds */
+}
+
+@keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
 }
