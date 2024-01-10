@@ -109,7 +109,7 @@ function showSnackbar() {
 const toTop = document.querySelector(".back-to-top");
 
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 100) {
+  if (window.scrollY > 560) {
     toTop.classList.add("active");
   } else {
     toTop.classList.remove("active");
