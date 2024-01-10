@@ -627,3 +627,43 @@ footer.visible {
     opacity: 0;
   }
 }
+
+/* Scroll to top  */
+.back-to-top {
+  position: fixed;
+  bottom: -4rem;
+  right: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #474646;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  transition: bottom 0.3s ease-out;
+}
+
+.back-to-top span {
+  color: #fff;
+  font-size: 2rem;
+  transition: 0.2s ease-out;
+}
+
+.back-to-top:hover {
+  background-color: #232323;
+}
+
+.back-to-top:hover span {
+  transform: translateY(-4px);
+}
+
+.back-to-top.active {
+  bottom: 3rem;
+}
+
+.material-symbols-outlined {
+  font-family: "Material Icons";
+  font-size: 32px;
+  vertical-align: middle;
+  margin-left: 3px;
+}

@@ -104,3 +104,14 @@ function showSnackbar() {
     snackbar.className = snackbar.className.replace("show", "");
   }, 3000); // Adjust the duration as needed (in milliseconds)
 }
+
+// Scroll to top button
+const toTop = document.querySelector(".back-to-top");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 100) {
+    toTop.classList.add("active");
+  } else {
+    toTop.classList.remove("active");
+  }
+});
