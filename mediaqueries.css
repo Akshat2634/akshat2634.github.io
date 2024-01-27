@@ -137,22 +137,5 @@
     bottom: 1rem;
     transform: translateX(50%);
   }
-
-  footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 1rem;
-    text-align: center;
-  }
-
-  footer nav {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-  }
-
-  footer p {
-    margin-top: 0.5rem;
-  }
+  
 }
