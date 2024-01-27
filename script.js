@@ -23,20 +23,26 @@ window.onscroll = function () {
   }
 
   // Scrolling behavior for footer
-  if (prevScrollPosFooter < currentScrollPos) {
-    // Scrolling down
+  if (window.innerWidth <= 600) {
+    // For mobile view, always show the footer
     document.querySelector("footer").classList.add("visible");
     document.querySelector("footer").classList.remove("hidden");
   } else {
-    // Scrolling up
-    document.querySelector("footer").classList.remove("visible");
-    document.querySelector("footer").classList.add("hidden");
+    // For desktop view, show/hide the footer based on scroll direction
+    if (prevScrollPosFooter < currentScrollPos) {
+      // Scrolling down
+      document.querySelector("footer").classList.add("visible");
+      document.querySelector("footer").classList.remove("hidden");
+    } else {
+      // Scrolling up
+      document.querySelector("footer").classList.remove("visible");
+      document.querySelector("footer").classList.add("hidden");
+    }
   }
 
   prevScrollPos = currentScrollPos;
   prevScrollPosFooter = currentScrollPos;
 };
-
 //Initialize Firebase
 const firebaseConfig = {
   apiKey: "AIzaSyCGgAFSw8dy4OXMyE6TvxMd_48RGOA0ASQ",
