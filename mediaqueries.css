@@ -51,6 +51,8 @@
   #contact,
   footer {
     height: 40vh;
+    text-align: center;
+    padding: 1rem;
   }
   #profile {
     height: 83vh;
