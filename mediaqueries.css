@@ -50,10 +50,11 @@
 @media screen and (max-width: 600px) {
   #contact,
   footer {
-    height: 40vh;
+    height: fit-content;
     text-align: center;
     padding: 1rem;
   }
+
   #profile {
     height: 83vh;
     margin-bottom: 0;
