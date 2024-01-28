@@ -106,6 +106,17 @@ a:hover {
   transition: all 0.3 ease-in-out;
 }
 
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
 .menu-links {
   position: absolute;
   top: 100%;
@@ -114,8 +125,9 @@ a:hover {
   width: fit-content;
   max-height: 0;
   overflow: hidden;
-  transition: all 0.3 ease-in-out;
+  animation: slideDown 1s ease-in-out;
 }
+
 
 .menu-links a {
   display: block;
