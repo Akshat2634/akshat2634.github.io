@@ -109,6 +109,11 @@
     padding: 2rem 0;
   }
 
+  #contact {
+  flex-direction: column;
+}
+
+
   .skills-container {
     flex-direction: column;
     align-items: center;
