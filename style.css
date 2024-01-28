@@ -472,9 +472,16 @@ ul.workex li:hover {
   display: flex;
   justify-content: center;
   align-items: center; /* Add this line to vertically align the content */
-  flex-direction: column;
+  flex-direction: row;
+  gap: 5rem;
   height: auto; /* Change the height to auto */
   padding: 2rem 0; /* Add padding for better spacing */
+}
+
+.vl {
+  border-left: 1px solid black;
+  height: 500px;
+  margin-left: 2rem;
 }
 
 .contact-info-upper-container {
