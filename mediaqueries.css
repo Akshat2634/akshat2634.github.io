@@ -110,8 +110,12 @@
   }
 
   #contact {
-  flex-direction: column;
-}
+    flex-direction: column;
+  }
+  .vl {
+    display: none;
+  }
+
 
 
   .skills-container {
