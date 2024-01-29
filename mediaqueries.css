@@ -116,8 +116,6 @@
     display: none;
   }
 
-
-
   .skills-container {
     flex-direction: column;
     align-items: center;
@@ -141,6 +139,9 @@
     font-size: 1rem;
     line-height: 1.5;
   }
+  .contact-info-upper-container {
+    margin-right: 6rem;
+  }
 
   .arrow {
     position: absolute;
@@ -148,5 +149,4 @@
     bottom: 1rem;
     transform: translateX(50%);
   }
-  
 }
