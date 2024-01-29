@@ -116,7 +116,6 @@ a:hover {
   }
 }
 
-
 .menu-links {
   position: absolute;
   top: 100%;
@@ -127,7 +126,6 @@ a:hover {
   overflow: hidden;
   animation: slideDown 1s ease-in-out;
 }
-
 
 .menu-links a {
   display: block;
@@ -481,7 +479,7 @@ ul.workex li:hover {
 .vl {
   border-left: 1px solid black;
   height: 300px;
-  margin-left: 2rem;
+  margin-left: 9rem;
 }
 
 .contact-info-upper-container {
@@ -491,7 +489,7 @@ ul.workex li:hover {
   border-radius: 2rem;
   border: 1px solid rgb(163, 163, 163); /* Simplify border styling */
   background: rgb(250, 250, 250);
-  margin: 2rem 0; /* Add margin for better spacing */
+  margin: 2rem 0 2rem 6rem; /* Add margin for better spacing */
   padding: 1rem; /* Adjust padding for better spacing */
 }
 
@@ -525,7 +523,6 @@ ul.workex li:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border: 1px solid rgb(163, 163, 163);
 }
-
 
 .contact-form-container h2 {
   text-align: center;
