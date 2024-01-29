@@ -476,11 +476,10 @@ ul.workex li:hover {
   padding: 2rem 0; /* Add padding for better spacing */
 }
 
-.vl {
+/* .vl {
   border-left: 1px solid black;
   height: 300px;
-  margin-left: 9rem;
-}
+} */
 
 .contact-info-upper-container {
   display: flex;
